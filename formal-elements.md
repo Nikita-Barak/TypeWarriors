@@ -2,7 +2,7 @@
 # Typing Warriors  
 **Quest for Speed**
 
-**Typing Warriors** is a game where the hero battles enemies, but every action the player wishes to perform depends on correctly typing words that appear on the screen within a short time frame. The game is designed to teach touch typing in a light and friendly way.
+**Typing Warriors** is a game where the hero battles enemies, but every action the player wishes to perform depends on correctly typing words that appear on the screen within a short time frame. The game is designed to teach blind typing in a light and friendly way.
 
 The game is intended for **PC**.
 
