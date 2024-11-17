@@ -6,6 +6,9 @@
 
 The game is intended for **PC**.
 
+![image](https://github.com/user-attachments/assets/bbceed82-0e17-451e-bd28-aecdbae81254)
+
+
 ### 1. Players
 - Suitable for players of all skill levels, but especially aimed at beginners and intermediate players in touch typing who are looking to improve their skills in a fun way.
 - The game is designed for a single player, but includes a scoreboard to encourage competition among online players.
