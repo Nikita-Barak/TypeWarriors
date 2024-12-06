@@ -17,7 +17,7 @@ The game is designed for **PC** and targets players of all skill levels, especia
 
 ### Game Flow
 1. **Starting Phase**: Players begin with a quick tutorial covering the basic controls, such as typing words to attack and using spell icons to gain an advantage. In the first 30 seconds, they encounter a simple enemy to achieve immediate success.
-2. **Core Gameplay**: Players type words displayed above enemies, reducing their health with each correct entry. Words become progressively longer and more challenging. Special spells can be activated by typing specific sequences like "shield" or "blast."
+2. **Core Gameplay**: Players type words displayed above enemies, reducing their health with each correct entry. Words become progressively longer and more challenging. Failing to type a word correctly means getting attacked by the enemy.
 3. **Completion**: At the end of each level, players receive a summary of their performance, including typing speed, accuracy, and defeated enemies. Players continue until completing all levels or losing in a tough boss battle.
 
 ### Mechanics
