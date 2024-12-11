@@ -33,7 +33,7 @@ public class Typer : MonoBehaviour
 
     private void CheckInput()
     {
-        if(Input.anyKeyDown)
+        if (Input.anyKeyDown)
         {
             string keysPressed = Input.inputString;
 
