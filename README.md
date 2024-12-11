@@ -5,6 +5,8 @@
 
 The game is designed for **PC** and targets players of all skill levels, especially those at the beginner and intermediate levels who want to enhance their typing abilities in an enjoyable way.
 
+[Itch.io link](https://shutafimpro.itch.io/type-warriors)
+
 ## Gameplay
 
 ### Objectives
