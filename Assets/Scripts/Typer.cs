@@ -37,7 +37,7 @@ public class Typer : MonoBehaviour
         {
             string keysPressed = Input.inputString;
 
-            if(keysPressed.Length == 1)
+            if (keysPressed.Length == 1)
             {
                 EnterLetter(keysPressed);
             }
@@ -46,17 +46,17 @@ public class Typer : MonoBehaviour
 
     private void EnterLetter(String typedLetter)
     {
-        if(IsCorrectLetter(typedLetter))
+        if (IsCorrectLetter(typedLetter))
         {
             RemoveLetter();
 
-            if(IsWordDone())
+            if (IsWordDone())
             {
-                if(wordBank.isEmpty())
+                if (wordBank.isEmpty())
                 {
                     EndLevel();
-                }     
-                
+                }
+
                 else
                 {
                     playerAnimator.PlayAttack();
@@ -65,14 +65,13 @@ public class Typer : MonoBehaviour
                 }
             }
         }
-        
         else
         {
             enemyAnimator.PlayAttack();
             playerHP.TakeHit();
             SetNextWord();
 
-            if(wordBank.isEmpty())
+            if (wordBank.isEmpty())
             {
                 Invoke(nameof(EndLevel), 1.0f);
                 enabled = false;
@@ -113,7 +112,7 @@ public class Typer : MonoBehaviour
         playerAnimator.PlayAttack();
         enemyAnimator.PlayDeath();
         Invoke(nameof(NextLevel), 0.5f);
-        enabled = false;   
+        enabled = false;
     }
 
     private void NextLevel()

@@ -6,7 +6,7 @@ public class Wordbank : MonoBehaviour
 {
     [SerializeField] List<string> originalWords = null;
     private List<string> workingWords = new List<string>();
-    
+
     private void Awake()
     {
         workingWords.AddRange(originalWords);
@@ -16,7 +16,7 @@ public class Wordbank : MonoBehaviour
 
     private void Shuffle(List<string> list)
     {
-        for(int i=0; i< list.Count; i++)
+        for (int i = 0 ; i < list.Count ; i++)
         {
             int random = Random.Range(i, list.Count);
             string temp = list[i];
@@ -27,7 +27,7 @@ public class Wordbank : MonoBehaviour
 
     private void ConvertToLower(List<string> list)
     {
-        for(int i=0; i<list.Count; i++)
+        for (int i = 0 ; i < list.Count ; i++)
         {
             list[i] = list[i].ToLower();
         }
@@ -36,8 +36,8 @@ public class Wordbank : MonoBehaviour
     public string GetWord()
     {
         string newWord = string.Empty;
-        
-        if(!isEmpty())
+
+        if (!isEmpty())
         {
             newWord = workingWords.Last();
             workingWords.Remove(newWord);
