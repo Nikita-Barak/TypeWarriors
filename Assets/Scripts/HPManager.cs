@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class HPManager : MonoBehaviour
 {
-    private int HP = 3;  // Not editable in inspector due to non-customaizabilty - only 3 HP points are possible due to design an corresponding heart sprites.
+    private int HP = 3;  // Not editable in inspector due to non-customizabilty - only 3 HP points are possible due to design an corresponding heart sprites.
     bool hitFlag = false;
     AnimationController playerAnimator = null;
 

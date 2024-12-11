@@ -7,7 +7,6 @@ public class AnimationController : MonoBehaviour
     [SerializeField] float attackTime = 1.0f;
     [SerializeField] float hitTime = 1.0f;
 
-
     void Start()
     {
         animator = GetComponent<Animator>();
