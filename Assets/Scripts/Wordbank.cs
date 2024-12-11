@@ -16,7 +16,7 @@ public class Wordbank : MonoBehaviour
 
     private void Shuffle(List<string> list)
     {
-        for (int i=0 ; i < list.Count ; i++)
+        for (int i = 0; i < list.Count; i++)
         {
             int random = Random.Range(i, list.Count);
             string temp = list[i];
@@ -27,7 +27,7 @@ public class Wordbank : MonoBehaviour
 
     private void ConvertToLower(List<string> list)
     {
-        for (int i=0 ; i < list.Count ; i++)
+        for (int i = 0; i < list.Count; i++)
         {
             list[i] = list[i].ToLower();
         }
