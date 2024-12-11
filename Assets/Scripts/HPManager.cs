@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class HPManager : MonoBehaviour
 {    
-    private int HP = 3;
+    private int HP = 3;  // Not editable in inspector due to non-customaizabilty - only 3 HP points are possible due to design an corresponding heart sprites.
     bool hitFlag = false;
     AnimationController playerAnimator = null;
     
@@ -29,7 +29,8 @@ public class HPManager : MonoBehaviour
     [SerializeField] 
     float takeHitDelay = 0.5f;
 
-    // Time interval to wait after death and before resetting the scene.
+    [Tooltip("Interval to wait before resetting the scene after player death.")]
+    [SerializeField] 
     private float deathDelay = 1.0f;
     
     void Start()
