@@ -10,33 +10,26 @@ The game is designed for **PC** and targets players of all skill levels, especia
 ## Gameplay
 
 ### Objectives
-- Type words accurately and swiftly to defeat enemies and advance through levels.
-- Each level introduces tougher enemies and more complex words to challenge the player's typing skills.
+- Type words accurately to defeat enemies and advance through levels.
+- Each level introduces more complex words to challenge the player's typing skills.
 - The current objective is displayed at the top of the screen and changes as new enemies appear.
 
 ### Player Experience
-- **Single-player Mode**: The game includes a leaderboard to foster competition among players worldwide.
+- **Single-player Mode**: The game is played by one player, but in future updates will introduce a leaderboard to foster competition among players worldwide.
 
 ### Game Flow
-1. **Starting Phase**: Players begin with a quick tutorial covering the basic controls, such as typing words to attack and using spell icons to gain an advantage. In the first 30 seconds, they encounter a simple enemy to achieve immediate success.
-2. **Core Gameplay**: Players type words displayed above enemies, reducing their health with each correct entry. Words become progressively longer and more challenging. Failing to type a word correctly means getting attacked by the enemy.
-3. **Completion**: At the end of each level, players receive a summary of their performance, including typing speed, accuracy, and defeated enemies. Players continue until completing all levels or losing in a tough boss battle.
-
-### Mechanics
-- **Main Control**: Typing words accurately and quickly is essential to attack enemies.
-- **Spells**: Available through specific words, spells like "shield" and "blast" provide protection or boost attacks.
+1. **Core Gameplay**: Players type words displayed above enemies, reducing their health with each correct entry. Words become progressively longer and more challenging. Failing to type a word correctly means getting attacked by the enemy.
+2. **Completion**: In the future, at the end of each level, players receive a summary of their performance, including typing speed and accuracy.
   
 ### Rules
-- Each enemy appears with a new word that must be typed accurately to strike.
-- Slow typing allows enemies to counter-attack, reducing the player’s health.
-- Players learn the mechanics through an initial tutorial and gradual exposure to spells and their usage.
+- Each enemy appears with a new word bank that must be typed accurately to strike.
+- Players will learn the mechanics through a future initial tutorial and gradual exposure to harder words as the game progresses.
 
 ### Resources
-- **Health**: The primary resource, reduced by typing errors or slow responses.
-- **Spells**: Special abilities like "shield" and "blast" help protect the player or increase attack power. Spells appear at the bottom of the screen with a cooldown timer, indicating when they are ready for reuse.
+- **Health**: The primary resource, reduced by typing errors or slow responses. There is no way to regain health throughout a fight, adding to the complexity.
 
 ### Challenges
-- **Enemies**: Require quick and precise typing.
+- **Enemies**: Require precise typing in order to attack them, and only one typing error is required to be attacked by them.
 - **Self-challenge**: As words grow more difficult, maintaining typing speed and accuracy becomes more demanding.
 
 ### Boundaries
@@ -44,8 +37,8 @@ The game features a closed, structured world where each level guides players for
 
 ### Results
 - **Victory**: Achieved by completing all levels.
-- **Defeat**: Occurs if the player’s health runs out.
-- The outcome is skill-dependent, based on typing speed, accuracy, and strategic use of spells. Although competitive, it’s not a multiplayer game, but rankings are included to encourage comparison among players.
+- **Defeat**: Occurs if the player’s health runs out, and restarts the current fight.
+- The outcome is skill-dependent, based on the player's typing skills. Although the game's not aimed to be actively competitive as it’s not a multiplayer game, rankings will be included to encourage competition among players.
 
 ## Target Audience
-While there are many typing games online, especially in English (e.g., [Typeracer](https://play.typeracer.com), [Typing.com](https://www.typing.com/student/games)), **Typing Warriors** incorporates unique elements such as innovative graphics and spellcasting, appealing to both casual gamers and typing enthusiasts.
+While there are many typing games online, especially in English (e.g., [Typeracer](https://play.typeracer.com), [Typing.com](https://www.typing.com/student/games)), **Typing Warriors** incorporates unique elements such as innovative graphics and fighting, appealing to both casual gamers and typing enthusiasts.
